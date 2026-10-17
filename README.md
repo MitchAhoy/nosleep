@@ -9,6 +9,16 @@ A tiny menu bar app that keeps the Mac and its display awake.
 
 Check it's working: `pmset -g assertions | grep NoSleep`
 
+## Install on a new Mac
+
+Requires the Xcode Command Line Tools (`xcode-select --install`).
+
+```sh
+git clone https://github.com/MitchAhoy/nosleep.git
+cd nosleep
+./build.sh
+```
+
 ## Rebuild
 
 ```sh
